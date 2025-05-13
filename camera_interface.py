@@ -9,7 +9,7 @@ class CameraInterface(ABC):
     """
     @abstractmethod
     def capture(self):
-        """Method to make the object speak a given message."""
+        """Method to make the object capture an image"""
         pass
 
 class USBCamera(CameraInterface):
